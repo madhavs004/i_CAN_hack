@@ -1,0 +1,82 @@
+# Build directories
+Debug/
+Release/
+build/
+bin/
+obj/
+.embedder/
+
+# Object files and executables
+*.o
+*.obj
+*.elf
+*.axf
+*.out
+*.hex
+*.bin
+*.elf.map
+
+# Dependency files
+*.d
+*.su
+*.cyclo
+
+# List files
+*.list
+
+# IDE and editor files
+.cproject
+.project
+.settings/
+.vscode/
+*.swp
+*.swo
+*.ioc
+*~
+.DS_Store
+Thumbs.db
+
+# STM32CubeIDE specific
+RemoteSystemsTempFiles/
+.metadata/
+.recommenders/
+*.launch
+
+# Build system files
+*.mk
+Makefile
+
+# OS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# Generated documentation
+doxygen_output/
+html/
+latex/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# IDE workspace
+.idea/
+*.iml
+
+# Python cache (if using Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Keep source files, headers, and startup code
+!*.c
+!*.h
+!*.s
+!*.ld
+!*.md
+!.gitignore
