@@ -5,6 +5,13 @@ build/
 bin/
 obj/
 .embedder/
+docs/
+Drivers/
+FATFS/
+Middlewares/
+Drivers/
+
+
 
 # Object files and executables
 *.o
@@ -31,10 +38,12 @@ obj/
 .vscode/
 *.swp
 *.swo
-*.ioc
 *~
 .DS_Store
 Thumbs.db
+*.csv
+*.mxproject
+
 
 # STM32CubeIDE specific
 RemoteSystemsTempFiles/
